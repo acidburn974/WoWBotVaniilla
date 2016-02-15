@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nabot", "WoWBot\Nabot.csproj", "{032BE6D9-336D-4F61-8491-F4F33D4149EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6} = {61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6}
+		{79FD54B0-DEAB-459F-83B9-F1CED68D288B} = {79FD54B0-DEAB-459F-83B9-F1CED68D288B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fasmdll_managed", "Fasm\fasmdll_managed\fasmdll_managed.vcxproj", "{61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackMagic", "BlackMagic\BlackMagic\BlackMagic.csproj", "{79FD54B0-DEAB-459F-83B9-F1CED68D288B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6} = {61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{032BE6D9-336D-4F61-8491-F4F33D4149EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{032BE6D9-336D-4F61-8491-F4F33D4149EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{032BE6D9-336D-4F61-8491-F4F33D4149EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{032BE6D9-336D-4F61-8491-F4F33D4149EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6}.Debug|Any CPU.ActiveCfg = Release|Win32
+		{61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6}.Debug|Any CPU.Build.0 = Release|Win32
+		{61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6}.Release|Any CPU.ActiveCfg = Release|Win32
+		{61D8CF34-1FD7-4A01-BEC1-1A8E8050A9C6}.Release|Any CPU.Build.0 = Release|Win32
+		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

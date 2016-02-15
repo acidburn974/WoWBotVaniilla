@@ -1,0 +1,3 @@
+Blackmagic
+==========
+Memory reader library
